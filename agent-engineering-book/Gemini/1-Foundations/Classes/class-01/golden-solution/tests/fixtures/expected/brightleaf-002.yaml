@@ -1,9 +1,0 @@
-# Expected output for tests/fixtures/accounts/brightleaf-002.yaml.
-# See acme-001.yaml's header note — not yet machine-checked at this checkpoint.
-account_id: brightleaf-002
-scenario: disqualifying_account
-
-expected_qualification_direction: NOT_QUALIFIED
-rationale:
-  - Industry (financial_services) is explicitly excluded
-  - Employee count (300) is below the minimum (5,000)
