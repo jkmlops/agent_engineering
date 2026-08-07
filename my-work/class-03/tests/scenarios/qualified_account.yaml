@@ -1,0 +1,31 @@
+account:
+  id: acme_corp_001
+  name: Acme Automation Corp
+  industry: Manufacturing
+  employee_count: 1200
+  region: North America
+  notes: Target account actively expanding smart factory operations in 2026.
+
+objective: Evaluate account fit for Plant Operations Platform and Industrial AI Accelerator.
+
+evidence:
+  - claim: Acme Automation announced a $50M plant modernization initiative across 3 facilities.
+    classification: verified_fact
+    source:
+      name: Press Release
+      url: https://example.com/press/acme-modernization
+      retrieved_at: 2026-08-01
+    excerpt: Acme Automation Corp is investing $50M to upgrade plant telemetry and automation systems.
+
+  - claim: Acme is actively hiring for Senior Industrial IoT Architects.
+    classification: verified_fact
+    source:
+      name: Corporate Careers Portal
+      url: https://example.com/careers/acme-iot-architect
+      retrieved_at: 2026-08-05
+    excerpt: Looking for experts in SCADA integration and plant metrics aggregation.
+
+expected_evaluation:
+  status: qualified
+  fit_matched: true
+  authorizes_outreach: false

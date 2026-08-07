@@ -1,0 +1,38 @@
+company:
+  name: WidgetWare
+  description: >-
+    WidgetWare provides software and services to help manufacturing and
+    industrial-automation companies modernize plant operations and adopt AI-enabled automation.
+
+offerings:
+  - id: plant_operations_platform
+    name: Plant Operations Platform
+    description: >-
+      Real-time plant monitoring, telemetry aggregation, and operational metrics dashboard
+      for industrial automation and discrete manufacturing.
+    target_buyers:
+      - VP of Manufacturing
+      - Director of Plant Operations
+      - Chief Automation Officer
+    approved_claims:
+      - Unified real-time dashboard for multi-plant operational metrics.
+      - Out-of-the-box connectors for common industrial IoT protocols.
+    prohibited_claims:
+      - Guaranteed 100% uptime or zero defect rates.
+      - Unsupported ROI metrics or fabricated customer references.
+
+  - id: industrial_ai_accelerator
+    name: Industrial AI Accelerator
+    description: >-
+      Predictive maintenance models and automated root-cause diagnosis engine
+      for factory floor equipment and assembly lines.
+    target_buyers:
+      - VP of Maintenance & Engineering
+      - Head of Operational Excellence
+      - Chief Digital Officer
+    approved_claims:
+      - Early anomaly detection for rotating machinery and automated production lines.
+      - Integrates with historical SCADA and historian databases.
+    prohibited_claims:
+      - Replacement of human safety inspectors or licensed engineers.
+      - Contractually guaranteed reduction in maintenance budget without audit.
