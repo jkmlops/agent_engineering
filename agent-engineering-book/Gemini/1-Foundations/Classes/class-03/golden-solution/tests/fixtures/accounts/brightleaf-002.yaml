@@ -1,0 +1,9 @@
+# Sample input account — the "clearly disqualifying" scenario.
+# Structured version of tests/scenarios/02_disqualifying_account.md.
+account_id: brightleaf-002
+company_name: Bright Leaf Financial Advisors
+industry: financial_services
+employee_count: 300
+region: united_states
+known_challenges: []
+source_notes: []

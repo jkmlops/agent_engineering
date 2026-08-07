@@ -1,0 +1,16 @@
+# WidgetWare product facts. Stable business data, kept out of prompts
+# and out of code, per Book 1 §3.3.
+
+products:
+  - product_id: plant-modernization-suite
+    name: WidgetWare Plant Modernization Suite
+    summary: >
+      Software that helps manufacturing and industrial-automation companies
+      modernize plant operations and adopt AI-enabled automation.
+    approved_claims:
+      - "Integrates with common legacy plant-floor control systems"
+      - "Provides a phased modernization path rather than a full rip-and-replace"
+      - "Used by manufacturing customers to reduce manual, paper-based approval steps"
+    unapproved_claims:
+      - "Guarantees a specific percentage cost reduction"
+      - "Replaces a customer's existing safety-certified control systems"

@@ -1,0 +1,17 @@
+# Expected output for tests/fixtures/accounts/brightleaf-002.yaml.
+account_id: brightleaf-002
+scenario: disqualifying_account
+
+# Written by hand in Class 1. Not machine-checked until a real
+# qualification agent exists (Class 6+).
+expected_qualification_direction: NOT_QUALIFIED
+rationale:
+  - Industry (financial_services) is explicitly excluded
+  - Employee count (300) is below the minimum (5,000)
+
+# Checked directly against config/icp.yaml starting Class 3.
+icp_match:
+  industry_is_preferred: false
+  meets_minimum_employee_count: false
+  region_is_preferred: true
+  is_explicitly_excluded: true

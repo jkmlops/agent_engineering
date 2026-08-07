@@ -1,0 +1,12 @@
+# Sample input account — the "clearly qualifying" scenario.
+# Structured version of tests/scenarios/01_qualifying_account.md.
+account_id: acme-001
+company_name: Acme Manufacturing
+industry: manufacturing
+employee_count: 22000
+region: united_states
+known_challenges:
+  - legacy plant-floor systems with no path to AI-enabled automation
+source_notes:
+  - source: customer_note
+    text: The operations team still runs approvals through paper checklists.

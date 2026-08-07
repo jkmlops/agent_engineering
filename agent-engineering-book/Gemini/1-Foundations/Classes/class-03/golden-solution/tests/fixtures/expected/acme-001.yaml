@@ -1,0 +1,20 @@
+# Expected output for tests/fixtures/accounts/acme-001.yaml.
+account_id: acme-001
+scenario: qualifying_account
+
+# Written by hand in Class 1, against docs/widgetware-business-brief.md.
+# Not machine-checked until a real qualification agent exists (Class 6+).
+expected_qualification_direction: QUALIFIED
+rationale:
+  - Matches a preferred industry (manufacturing)
+  - Meets the minimum employee count (22,000 >= 5,000)
+  - Matches a preferred region (united_states)
+  - A concrete pain signal is present in source_notes, not merely inferred
+
+# Checked directly against config/icp.yaml starting Class 3 —
+# see tests/unit/test_context_builder.py.
+icp_match:
+  industry_is_preferred: true
+  meets_minimum_employee_count: true
+  region_is_preferred: true
+  is_explicitly_excluded: false

@@ -1,0 +1,12 @@
+# Sample input account — the "ambiguous / insufficient evidence" scenario.
+# Structured version of tests/scenarios/03_ambiguous_account.md.
+account_id: meridian-003
+company_name: Meridian Industrial Group
+industry: industrial_automation
+employee_count: null  # unknown — company is privately held, headcount not published
+region: europe
+known_challenges:
+  - self-described "modernization initiatives," with no further detail
+source_notes:
+  - source: press_mention
+    text: The company recently discussed modernization initiatives.

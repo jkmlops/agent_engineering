@@ -1,0 +1,22 @@
+# Expected output for tests/fixtures/accounts/meridian-003.yaml.
+account_id: meridian-003
+scenario: ambiguous_account
+
+# Written by hand in Class 1. Not machine-checked until a real
+# qualification agent exists (Class 6+).
+expected_qualification_direction: NEEDS_RESEARCH
+rationale:
+  - Industry and region are plausible fits
+  - Employee count is unknown and must not be guessed to resolve the ambiguity
+  - The modernization signal is too vague on its own to count as a decisive pain signal
+
+# Checked directly against config/icp.yaml starting Class 3.
+# meets_minimum_employee_count is null, not false — the account is
+# unevaluable on this criterion, which is a different condition from
+# failing it. A context/qualification layer that conflates "unknown"
+# with "false" here is a defect Class 3's own tests should catch.
+icp_match:
+  industry_is_preferred: true
+  meets_minimum_employee_count: null
+  region_is_preferred: true
+  is_explicitly_excluded: false
