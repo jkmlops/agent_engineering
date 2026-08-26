@@ -1,0 +1,26 @@
+account:
+  id: stealth_tech_003
+  name: Stealth Dynamics Inc
+  industry: unknown
+  employee_count: null
+  region: North America
+  notes: Early stage stealth entity with limited public records.
+
+objective: Determine ICP fit and evidence sufficiency for Stealth Dynamics Inc.
+
+evidence:
+  - claim: Stealth Dynamics registered a business entity in 2025.
+    classification: verified_fact
+    source:
+      name: Secretary of State Registry
+      url: https://example.com/registry/stealth-dynamics
+      retrieved_at: 2026-07-20
+    excerpt: Business filing registered in Delaware.
+
+expected_evaluation:
+  status: insufficient_evidence
+  missing_fields:
+    - industry
+    - employee_count
+  authorizes_outreach: false
+  action: stop_and_escalate

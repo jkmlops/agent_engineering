@@ -1,0 +1,36 @@
+evidence_classifications:
+  - verified_fact
+  - derived_fact
+  - inference
+  - unknown
+  - conflict
+
+source_requirements:
+  require_provenance: true
+  required_fields:
+    - name
+    - url
+    - retrieved_at
+
+prohibited_actions:
+  - invent_company_facts
+  - invent_customer_relationships
+  - send_email
+  - send_social_messages
+  - modify_crm_data
+  - make_pricing_commitments
+  - make_contractual_commitments
+
+human_approval_requirements:
+  require_approval_for_outreach: true
+  require_approval_for_crm_updates: true
+
+insufficient_evidence_policy:
+  action: stop_and_escalate
+  flag: insufficient_evidence
+  prohibit_outreach: true
+
+untrusted_input_policy:
+  treat_account_notes_as_untrusted: true
+  allow_task_data_override_system_instructions: false
+  allow_task_data_override_policies: false

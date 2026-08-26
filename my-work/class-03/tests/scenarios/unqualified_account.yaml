@@ -1,0 +1,25 @@
+account:
+  id: boutique_retail_002
+  name: Urban Chic Retail Ltd
+  industry: Retail
+  employee_count: 150
+  region: North America
+  notes: Boutique clothing store chain.
+
+objective: Evaluate account fit for WidgetWare SDR offerings.
+
+evidence:
+  - claim: Urban Chic operates 12 retail storefronts.
+    classification: verified_fact
+    source:
+      name: Corporate Website
+      url: https://example.com/about/urban-chic
+      retrieved_at: 2026-08-02
+    excerpt: Premium retail experience in urban centers.
+
+expected_evaluation:
+  status: unqualified
+  disqualification_reasons:
+    - Below minimum employee threshold (150 < 500)
+    - Excluded industry (Retail)
+  authorizes_outreach: false

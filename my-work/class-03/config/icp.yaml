@@ -1,0 +1,26 @@
+fit_dimensions:
+  min_company_size: 500
+  preferred_industries:
+    - Manufacturing
+    - Industrial Automation
+    - Automotive Assembly
+    - Aerospace & Defense
+  excluded_industries:
+    - Retail
+    - Financial Services
+    - Hospitality
+    - Consumer Software
+  preferred_regions:
+    - North America
+    - Europe
+  buying_signals:
+    - Announced plant modernization or smart factory initiative
+    - Recent acquisition of manufacturing facilities
+    - Public hiring for industrial IoT or smart manufacturing roles
+    - Modernization press releases or corporate sustainability reports
+
+required_account_fields:
+  - name
+  - industry
+  - employee_count
+  - region
